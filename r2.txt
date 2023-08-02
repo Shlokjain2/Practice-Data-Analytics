@@ -1,0 +1,1 @@
+With respect to the world, assuming the world has n people in all, in the year 2019 the number of COVID effected patients were 20% of the total population, the number of effected people were 60% in the year 2020 and 80% were affected in the year 2021. Prepare a list reflecting the actual values. Display the list.

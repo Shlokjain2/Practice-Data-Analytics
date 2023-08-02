@@ -1,0 +1,10 @@
+import sqlite3 as sq
+con=sq.connect("DataAnalytics.db")
+cur=con.cursor()
+#cur.execute('select * from Emp')
+#print(cur.fetchall())
+cur.execute('delete from emp where deptid>3 or commission=0.0')
+#cur.execute('select * from Emp')
+#print(cur.fetchall())
+con.commit()
+con.close()
